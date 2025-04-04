@@ -1,0 +1,441 @@
+﻿/* Reset and base styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7% ;
+  background-color: #fff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.pages-name {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.page-name {
+  color: #555;
+  font-weight: 500;
+}
+
+.page-name:hover {
+  color:#cc4f0b;
+}
+
+/* Welcome section */
+.welcome-section {
+  background-color: #f7f7f7;
+  padding: 80px 7%;
+  flex-direction: column;
+}
+
+.welcome-section .container {
+ display: inline-block;
+ width:45%;
+  margin-bottom: 40px;
+}
+
+.welcome-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #080808;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  color: #282828;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dish {
+ display: inline-block;
+  width: 30%;
+  margin: 40px ;
+}
+.shop-btn {
+  background-color: #cc4f0b;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-weight: 600;  
+}
+
+.contact-btn {
+  background-color:#000000;
+  color: #ffffff;
+  border: none;
+  margin: 20px ;
+  padding: 12px 40px;
+  font-weight: 600;
+}
+/* Services Section */
+.Services-Section {
+  padding: 80px 7%;
+  background-color: #fff;
+}
+
+.Services-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Services-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b0b0b;
+  margin-bottom: 15px;
+}
+
+.Services-header p {
+  color: #161616;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.Services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ 
+}
+
+.Service {
+ background-color: #f9f9f9;
+  padding: 30px 20px;
+  text-align: center; 
+}
+
+.Service:hover {
+    border-top: 8px solid #e56721;
+}
+
+.Service-img {
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.Service h4 {
+  font-size: 24px;
+  color: #e56721;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+
+.Service p {
+  color: #0b0b0b;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.Services-Section .button{
+    text-align: center;
+    }
+ .black-button {
+   background-color:#000000;
+    color: #ffffff;
+    border: none;
+    margin: 20px ;
+    padding: 12px 40px;
+    font-weight: 200;
+}
+
+.black-button:hover {
+  background-color:rgb(241, 241, 241);
+  border: 2px solid black;
+  color: #000000;
+} 
+
+/* Fresh Fruits Section */
+.Fresh-Fruits {
+  padding: 80px 7%;
+  background-color: #f7f7f7;
+}
+
+.Fresh-Fruits-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Fresh-Fruits-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #040404;
+  margin-bottom: 15px;
+}
+
+.Fresh-Fruits-header p {
+  color: #1f1f1f;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.Fruits {
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.Fruit {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.Fruit .text, .Fruit .text-content {
+  max-width: 70%;
+  padding-right: 20px;
+ float: left;
+}
+
+.Fruit h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.Fruit p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.Fruit-img {
+    margin: 20px;
+  width: 20%;
+  display: inline-block;
+}
+
+.Fruit .buttons {
+   justify-content: flex-start;
+}
+
+/* Tasty Image Section */
+.tasty-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.tasty-img img {
+  width: 100%;
+  display: block;
+}
+
+.tasty-img h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  
+  
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  padding: 80px 7%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.testimonial-header {
+  margin-bottom: 40px;
+}
+
+.testimonial-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.testimonial-header p {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.testimonial-section img {
+  width: 250px;
+  
+  
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.testimonial-section h4 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.testimonial-section p {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Contact Us Section */
+.contact-us {
+    margin: 100px 0px 20px 150px;
+    padding: 10px;
+}
+
+.contact-us .form{
+    float: left;
+}
+.contact-us input{
+    margin-top: 50px ;
+    border: none;
+    border-bottom: 1px solid black ;
+    width: 70%;
+}
+
+.contact-us img{
+    height: 340px;
+    float: right;
+}
+
+.contact-us .form button{
+    clear : both;
+    display: block;
+    margin-top: 50px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color:#e56721;
+    color: white;
+}
+
+.contact-us button:hover{
+    background-color: white;
+    color: #e56721;
+    border: 1px solid #e56721;
+}
+/* about us */
+.about-us{
+    margin: 120px ;
+    clear: both;
+}
+.info, .follow-us{
+    margin: 60px;
+    width: 11%;
+    display: inline;
+    float: left;
+}
+.info h6{
+    font-size: 20px;
+    font-weight:500;
+}
+
+.info p{
+    
+    font-size: 17px;
+    padding: 10px ;
+}
+
+.follow-us{
+    width: 20%;
+}
+.follow-us h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons img{
+    margin:10px 0px;
+    width: 25px;
+}
+
+.follow-us label{
+    font-size: 20px;
+    font-weight: 300; 
+}
+.follow-us input{
+    border: 1px  unset black;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 200px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.follow-us button{
+    clear : both;
+    display: block;
+    height: 30px;
+    width: 120px;
+    border: 0px;
+    background-color: #e56721;;
+    color: white;
+}
+footer{
+    margin-top: 80px;
+    padding:  10px 0px;
+    height: 50px;
+    text-align: center;
+    background-color: #e1e1e1;
+    clear: both;
+}
+
+
+
+
